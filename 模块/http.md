@@ -39,7 +39,7 @@ var client = http.get('http://127.0.0.1:3000', function(clientRes){
 
 * server：http.Server实例，用来提供服务，处理客户端的请求。
 * client：http.ClientReques实例，用来向服务端发起请求。
-* serverReq/clientRes：其实都是 http.IncomingMessage实。serverReq 用来获取客户端请求的相关信息，如request header；而clientRes用来获取服务端返回的相关信息，比如response header。
+* serverReq/clientRes：其实都是 http.IncomingMessage实例。serverReq 用来获取客户端请求的相关信息，如request header；而clientRes用来获取服务端返回的相关信息，比如response header。
 * serverRes：http.ServerResponse实例
 
 ## 关于http.IncomingMessage、http.ServerResponse
