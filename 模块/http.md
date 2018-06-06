@@ -44,7 +44,7 @@ var client = http.get('http://127.0.0.1:3000', function(clientRes){
 
 ## 关于http.IncomingMessage、http.ServerResponse
 
-先讲下 http.ServerResponse 实例。作用很明确，服务端通过http.ServerResponse 实例，来个请求方发送数据。包括发送响应表头，发送响应主体等。
+先讲下 http.ServerResponse 实例。作用很明确，服务端通过http.ServerResponse 实例，来向请求方发送数据。包括发送响应表头，发送响应主体等。
 
 接下来是 http.IncomingMessage 实例，由于在 server、client 都出现了，初学者难免有点迷茫。它的作用是
 
